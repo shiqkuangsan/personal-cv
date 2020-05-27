@@ -1,6 +1,6 @@
 # Personal CV
 
-<p><a href="./README.md">Chinese</a></p>
+<p><a href="README_zh.md">Chinese</a></p>
 
 
 ## Basic information
