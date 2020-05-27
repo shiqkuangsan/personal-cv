@@ -1,9 +1,4 @@
-
-# <h1 align=center>Resume</h1>
-
-<img src="./me.jpeg" width='120px' align=right></img>
-
-<br>
+# Personal CV
 
 <p><a href="./README.md">Chinese</a></p>
 

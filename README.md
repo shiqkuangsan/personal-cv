@@ -1,13 +1,9 @@
 
-[^_^]: <h1 align=center>个人简历</h1>
-
-[^_^]: <img src="./me.jpeg" width='120px' align=right></img>
-
 # 个人简历
 
 <br>
 
-[^_^]: <p><a href="./README_en.md">English</a></p>
+<p><a href="./README_en.md">English</a></p>
 
 
 ## 基本信息
