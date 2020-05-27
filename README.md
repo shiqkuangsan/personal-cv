@@ -1,9 +1,8 @@
 
 # 个人简历
 
-
-<p><a herf="">中文</a></p>
-<p><a herf="">English</a></p>
+[中文]()<br>
+[English]()
 
 
 ## 基本信息
