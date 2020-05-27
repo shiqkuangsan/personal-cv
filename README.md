@@ -1,9 +1,8 @@
 
 # 个人简历
 
-<br>
 
-<p><a href="./README_en.md">English</a></p>
+[^_^]: <p><a href="./README_en.md">English</a></p>
 
 
 ## 基本信息
@@ -19,7 +18,7 @@
 ## 专业技能
 - 熟练掌握**Java**、**JavaScript**、**TypeScript**、**Swift**开发语言，熟练使用AndroidStudio、VS Code、WebStorm、Xcode开发工具, 熟练 Git 版本控制
 
-- 原生 Android 出身，具有面向对象编程思想，熟练掌握 Android 组件、数据传递存储、网络请求、权限机制、多线程编程等，熟练掌握主流开发框架如OKhttp、OKGo、xUtils、Imageloder、EventBus、BGA、RxJava、Realm、VLayout数据库等
+- 原生 Android 出身，具有面向对象编程思想，熟练掌握 Android 组件、数据传递存储、网络请求、权限机制、多线程编程等，熟练掌握主流开发框架如OKhttp、OKGo、xUtils、Imageloder、EventBus、BGA、RxJava、Realm数据库、VLayout等
 
 - 有**丰富的**ReactNative项目经验，熟练掌握navigation、router-flux、redux、mobx、elements、storage等主流开发框架，能根据不同平台 (iOS、Android)做UI兼容并处理适配问题，打造针对不同平台风格的 UI 界面，熟悉RN与原生Android的通信交互, 可以编写原生模块供 RN 端调用
 
@@ -33,12 +32,11 @@
 
 ## 工作经历
 ### 江苏南大苏富特医疗科技有限公司 |  App 研发 |  2016.7 - ~
-1. 独立负责Android端的APP的项目创建、架构、代码撰写、打包、维护、版本迭代
-2. 负责 ReactNative 项目的相关模块代码编写，撰写原生模块，提供接又和方法与 Android 端进行原生交互 
-3. 负责搭建App项目的主体框架，负责分配任务到开发组其他人员
-4. 负责由分配到的 Web 前端 Angular、Vue 项目对应模块的功能代码编写
-5. 对总监汇报工作进度，与产品经理沟通, 对产品功能提出建议和优化, 改善用户体验
-6. 负责 Android 端、react-native App开发人员面试 
+1. 独立负责Android端的APP的项目框架搭建、代码撰写、维护、打包、版本迭代
+2. 负责 ReactNative 项目的分配任务到开发组其他人员和自己模块代码编写，负责撰写原生模块，提供接口 **Api** 与 Android 端进行**原生交互**
+3. 负责分配到的 Web 前端 Angular、Vue 项目对应模块的功能代码编写
+4. 对总监汇报工作进度，与产品经理沟通, 对产品功能提出建议和优化, 改善用户体验
+5. 负责 Android 端、react-native App开发人员面试 
 
 ### 杭州天尔科技有限公司 |  Android 初级开发（实习） |  2015.11 - 2016.3
 - 根据需求完成APP相关功能模块的设计和开发，测试并修复所负责模块的功能、
@@ -46,22 +44,28 @@
 
 
 ## 项目经历
-### [专利书包](https://apps.apple.com/cn/app/id1446241863) 2018.10 - 2018.12
+
+### [专利书包App](https://apps.apple.com/cn/app/id1446241863) 
+[^_^]:  2018.10 - 2018.12
+- 高校
+- 技术栈
+- 我负责
+
+
+### [护士继续教育平台App](https://apps.apple.com/cn/app/id1433883456) 
+[^_^]:  2018.06 - 2018.8
 - 功能点
 - 技术栈
 - 我负责
 
-### [护士继续教育平台](https://apps.apple.com/cn/app/id1433883456) 2018.06 - 2018.8
+### [慢性病管理平台App](https://apps.apple.com/cn/app/id1407176114) 
+[^_^]:  2016.12 - 2017.9
 - 功能点
 - 技术栈
 - 我负责
 
-### [慢性病管理平台](https://apps.apple.com/cn/app/id1407176114) 2016.12 - 2017.9
-- 功能点
-- 技术栈
-- 我负责
-
-### [医科大学管理平台](https://www.baidu.com) 2019.10 - ~
+### [医科大学管理平台Web](https://www.baidu.com) 
+[^_^]:  2019.10 - ~
 - 功能点
 - 技术栈
 - 我负责
