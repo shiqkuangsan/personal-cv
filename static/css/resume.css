@@ -66,7 +66,7 @@ html p {
 .img-header {
     width: 1000px;
     height: 300px;
-    margin-top: 20px; 
+    margin-top: 20px;
     background-image: url(../image/Group.png);
 }
 .peasonal-image {
@@ -79,7 +79,7 @@ html p {
     margin: 128px auto 0 334px;
     padding: 10px 0px;
     background: rgba(11,52,79,0.60);
-    width: 313px;
+    width: 380px;
     color: #fff;
 }
 
@@ -96,7 +96,7 @@ html p {
     text-shadow: initial;
 }
 .information-all, section {
-     margin-top: 50px; 
+     margin-top: 50px;
 }
 .information-all, main > section, footer > section {
     padding: 0 35px;
@@ -114,7 +114,7 @@ html p {
     margin-top: -5px;
 }
 .item .title {
-    margin: 15px 0; 
+    margin: 15px 0;
     font-weight: bold;
     font-size: 16px;
     color: #022643;
@@ -231,7 +231,7 @@ section .title.about-me::before {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.10);
     border-radius: 5px;
     padding: 20px;
-    text-align: center; 
+    text-align: center;
     z-index: 10;
 }
 .project-content p.project-title {
@@ -241,13 +241,13 @@ section .title.about-me::before {
     letter-spacing: 1.14px;
 }
 .project-content p.create-time {
-    margin-top: 5px; 
+    margin-top: 5px;
     font-size: 14px;
     color: #767E84;
     letter-spacing: 1px;
 }
 .project-content p.decription {
-    margin-top: 15px; 
+    margin-top: 15px;
     text-align: initial;
     font-size: 14px;
     color: #022643;
@@ -256,7 +256,7 @@ section .title.about-me::before {
 }
 .w-experience-content {
     border-bottom: 1px solid #D6DCE1;
-    padding: 30px 0;  
+    padding: 30px 0;
 }
 .w-experience-content:last-child {
     border-bottom: none;
@@ -285,13 +285,13 @@ section .title.about-me::before {
     font-size: 16px;
     color: #022643;
     letter-spacing: 1.14px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 .work-content p.key-word {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 .enducation-detail {
-    padding: 50px 0 30px 0; 
+    padding: 50px 0 30px 0;
 }
 .enducation-detail .item {
     padding-left: 50px;
@@ -314,7 +314,7 @@ section .title.about-me::before {
     margin: 40px 0 20px 0;
 }
 .icon-container {
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 .icon-container .icon {
     margin-right: 30px;
@@ -331,11 +331,11 @@ section .title.about-me::before {
     height: 80px;
 }
 .contact .qrcode {
-    border-right: 1px solid #CDD8E1; 
+    border-right: 1px solid #CDD8E1;
 }
 .contact p {
     letter-spacing: 1.43px;
-} 
+}
 p.footer {
     text-align: center;
     font-size: 12px;

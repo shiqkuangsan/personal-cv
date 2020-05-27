@@ -1,7 +1,7 @@
 
 [^_^]: <h1 align=center>个人简历</h1>
 
-[^_^]: <img src="./assets/me.jpeg" width='120px' align=right></img>
+[^_^]: <img src="./me.jpeg" width='120px' align=right></img>
 
 # 个人简历
 
