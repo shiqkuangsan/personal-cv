@@ -339,8 +339,15 @@ section .title.about-me::before {
     vertical-align: top;
 }
 
-.company-logo {
+.company-logo-softech {
     margin: 20px 0 0 20px;
+    height: 59px;
+    max-width: 250px;
+}
+
+.company-logo-tainer {
+    margin: 20px 0 0 20px;
+    height: 89px;
     max-width: 250px;
 }
 
