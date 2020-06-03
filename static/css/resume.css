@@ -92,6 +92,7 @@ html p {
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    margin-right: 15px;
     border: 0.5px solid #aaa;
 }
 
@@ -239,6 +240,13 @@ section .title.about-me::before {
     margin-top: 50px;
 }
 
+.col-3-abs .applogo {
+    height: 54px;
+    width: 54px;
+    border-radius: 8px;
+}
+
+
 .project-detail .col-3-abs:not(.endline) {
     margin-right: 20px;
 }
@@ -369,13 +377,21 @@ section .title.about-me::before {
 }
 
 .peasonal-message {
-    width: 60%;
+    width: 70%;
     text-align: center;
     margin: 40px auto
 }
 
 .peasonal-message .name {
-    margin: 10px 0;
+}
+
+.peasonal-message .wechat {
+}
+
+.peasonal-message .phone {
+}
+
+.peasonal-message .email {
 }
 
 .peasonal-message .contact {
@@ -383,7 +399,16 @@ section .title.about-me::before {
 }
 
 .icon-container {
-    margin-top: 15px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-container .wrapper {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .icon-container .icon {
