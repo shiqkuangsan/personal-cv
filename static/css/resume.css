@@ -84,7 +84,8 @@ html p {
     width: 1000px;
     height: 300px;
     margin-top: 20px;
-    background-image: url(../image/bg_head.jpeg);
+    /*background-image: url(../image/bg_head.jpeg);*/
+    background-image: url(http://47.100.108.231:8080/sansan/personal-cv/snapshots_project/bg_head.jpeg);
     border-radius: 10px;
 }
 
