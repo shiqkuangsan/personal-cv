@@ -247,6 +247,11 @@ section .title.about-me::before {
     border-radius: 8px;
 }
 
+.applogo-nurse {
+    width: 62px;
+    height: 54px;
+    border-radius: 8px;
+}
 
 .project-detail .col-3-abs:not(.endline) {
     margin-right: 20px;
