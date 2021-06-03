@@ -84,8 +84,8 @@ html p {
     width: 1000px;
     height: 300px;
     margin-top: 20px;
-    /*background-image: url(../image/bg_head.jpeg);*/
-    background-image: url(http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/bg_head.jpeg);
+    background-image: url(../image/bg_head.jpeg);
+    /*background-image: url(http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/bg_head.jpeg);*/
     border-radius: 10px;
 }
 
@@ -247,6 +247,11 @@ section .title.about-me::before {
     border-radius: 8px;
 }
 
+.sys-log {
+    width: 82px;
+    height: 54px;
+    border-radius: 8px;
+}
 .applogo-nurse {
     width: 62px;
     height: 54px;
@@ -456,4 +461,5 @@ p.footer {
     color: #9A9A9A;
     letter-spacing: 1.22px;
     padding: 10px 0;
+    padding-bottom: 20px;
 }

@@ -3,14 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>peasonal resume</title>
+  <title>朱桂东</title>
   <link rel="stylesheet" href="./static/css/resume.css">
+  <link rel="icon"
+        href="https://react.docschina.org/favicon-32x32.png?v=f4d46f030265b4c48a05c999b8d93791"
+        type="image/x-icon"/>
 </head>
 
 <body>
 <div class="container">
   <header>
-<!-- 背景图资源引用在 css 中 -->
+    <!-- 背景图资源引用在 css 中 -->
     <div class="img-header">
       <div class="content">
         <p><strong>It's never too late to learn.</strong></p>
@@ -22,7 +25,8 @@
       <div class="col-6-asb">
         <div class="col-3 peasonal">
           <img class="peasonal-image"
-               src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/me.jpg" alt="">
+               src="./static/image/project/me.jpg" alt="">
+          <!--               src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/me.jpg" alt="">-->
         </div>
         <div class="col-9 item">
           <p class="title name">
@@ -32,10 +36,12 @@
           <div class="col-6">
             <p class="education">铜陵学院 | 本科</p>
             <p class="phone">16 年毕业</p>
+            <p class="phone">5年开发</p>
           </div>
           <div class="col-6">
             <p class="email">761105568@qq.com</p>
-            <p class="profession">软件工程</p>
+            <p class="profession">优秀的开发者</p>
+            <p class="profession">目标大前端</p>
           </div>
         </div>
       </div>
@@ -43,25 +49,28 @@
         <div class="col-6 ensprience">
           <div class="item">
             <p class="title">
-              关于我
+              开发经验
             </p>
             <ul>
-              <li>4 年+ Android 研发</li>
-              <li>3 年+ react native 研发</li>
-              <li>1 年+ 前端 Vue/React</li>
+              <li>3 年+ Android</li>
+              <li>4 年+ React Native</li>
+              <li>2 年+ React/Vue/Mini</li>
             </ul>
           </div>
         </div>
         <div class="col-6 skill">
           <div class="item">
             <p class="title">
-              熟练语言
+              技术栈一览
             </p>
             <div class="lang">
-              <lable>Java</lable>
-              <lable>JavaScript</lable>
-              <lable>TypeScript</lable>
-              <lable>Swift</lable>
+              <lable>Android</lable>
+              <lable>React Native</lable>
+              <lable>React</lable>
+              <lable>Vue</lable>
+              <lable>JS/TS</lable>
+              <lable>Taro</lable>
+              <lable>AntD全家桶</lable>
             </div>
           </div>
         </div>
@@ -71,7 +80,40 @@
       <div class="title project">
         <p>项目经验</p>
       </div>
+      
       <div class="project-detail">
+        <div class="col-3-abs" id="project-1">
+          <div class="project-content">
+            <a href="https://www.chinaexpo365.com/" target="view_window">
+              <img class="sys-log" src="./static/icon/logo_sys_expo.png" alt="">
+            </a>
+            <p class="project-title">润展网上展览/报名系统</p>
+            <p class="create-time">React + Native</p>
+            <p class="decription">
+              - 系统包含: <br>
+              o <a target="view_window"
+                   href="./static/image/project/16_expo_web1.png">展览中心web端</a> <br>
+              o <a target="view_window" href="./static/image/project/16_expo_app.png">展览中心 App 端</a> <br>
+              o <a target="view_window" href="./static/image/project/16_expo_mini1.png">宣传系统小程序</a> <br>
+              o <a target="view_window" href="./static/image/project/16_expo_h5.png">报名系统 H5</a> <br>
+              - 核心技术: <br>
+              o App: React Native + UI-Lib <br>
+              o 管理端: React + Umi + Dva + Ant Design Pro <br>
+              o 小程序: Taro + React <br>
+              o H5: React + AntD Mobile + Mobx <br>
+            </p>
+          </div>
+          <div class="link-to">
+            <a
+              href="./static/image/project/06_nurse_promote.jpg"
+              class="button" target="view_window">
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/06_nurse_promote.jpg"-->
+              项目预览
+            </a>
+            <div class="shadow"></div>
+          </div>
+        </div>
+        
         <div class="col-3-abs" id="project-0">
           <div class="project-content">
             <a href="https://apps.apple.com/cn/app/id1446241863" target="view_window">
@@ -82,53 +124,57 @@
             <p class="decription">
               - 项目采用 react-native 开发技术<br>
               - router-flux 路由框架，实现导航、数据传递、主题一体化<br>
+              - React.FC/ui-lib/storage/ 函数组件,UI风格化,接口数据缓存<br>
               - mobx 数据管理，分离 view 和 model，实现数据观察，双向绑定<br>
-              - elements 组件统一风格化，便于自定义实现美观的 UI<br>
-              - storage 数据缓存，高效率存取用户数据，实现 App 缓存，一次加载长久可看<br>
               - decorators 注解语法，便捷实现前置操作如登录权限，提升开发效率<br>
-            </p>
-          </div>
-          <div class="link-to">
-            <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/08_patentbag_1.png"
-              class="button" target="view_window">
-              项目截图
-            </a>
-            <div class="shadow"></div>
-          </div>
-        </div>
-        <div class="col-3-abs" id="project-1">
-          <div class="project-content">
-            <a href="https://apps.apple.com/cn/app/id1433883456" target="view_window">
-              <img class="applogo" src="static/icon/logo_fenapp.png" alt="">
-            </a>
-            <p class="project-title">护士继续教育 App</p>
-            <p class="create-time">React Native</p>
-            <p class="decription">
-              - 项目采用 react-native 开发技术<br>
-              - router-flux 路由框架，实现导航、数据传递、主题一体化<br>
-              - 编写 Android 端原生视频控制器,供RN端调用<br>
               - 编写支付宝、微信原生支付功能供 RN 端调用<br>
-              - mobx 数据管理，分离 view 和 model，实现数据观察，双向绑定<br>
-              - axios 网络请求框架，标准 restful 风格, 规范统一<br>
             </p>
           </div>
           <div class="link-to">
             <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/06_nurse_promote.jpg"
+              href="./static/image/project/08_patentbag_1.png"
               class="button" target="view_window">
-              项目截图
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/08_patentbag_1.png"-->
+              项目预览
             </a>
             <div class="shadow"></div>
           </div>
         </div>
+        
+        <!--        <div class="col-3-abs" id="project-1">-->
+        <!--          <div class="project-content">-->
+        <!--            <a href="https://apps.apple.com/cn/app/id1433883456" target="view_window">-->
+        <!--              <img class="applogo" src="static/icon/logo_fenapp.png" alt="">-->
+        <!--            </a>-->
+        <!--            <p class="project-title">护士继续教育 App</p>-->
+        <!--            <p class="create-time">React Native</p>-->
+        <!--            <p class="decription">-->
+        <!--              - 项目采用 react-native 开发技术<br>-->
+        <!--              - router-flux 路由框架，实现导航、数据传递、主题一体化<br>-->
+        <!--              - 编写 Android 端原生视频控制器,供RN端调用<br>-->
+        <!--              - 编写支付宝、微信原生支付功能供 RN 端调用<br>-->
+        <!--              - mobx 数据管理，分离 view 和 model，实现数据观察，双向绑定<br>-->
+        <!--              - axios 网络请求框架，标准 restful 风格, 规范统一<br>-->
+        <!--            </p>-->
+        <!--          </div>-->
+        <!--          <div class="link-to">-->
+        <!--            <a-->
+        <!--              href="./static/image/project/06_nurse_promote.jpg"-->
+        <!--              class="button" target="view_window">-->
+        <!--&lt;!&ndash;              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/06_nurse_promote.jpg"&ndash;&gt;-->
+        <!--              项目预览-->
+        <!--            </a>-->
+        <!--            <div class="shadow"></div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        
         <div class="col-3-abs endline" id="project-2">
           <div class="project-content">
             <a href="https://apps.apple.com/cn/app/id1407176114" target="view_window">
               <img class="applogo" src="static/icon/logo_chronic.png" alt="">
             </a>
             <p class="project-title">慢性病管理患者端 App</p>
-            <p class="create-time">Java</p>
+            <p class="create-time">Android</p>
             <p class="decription">
               - 采用原生 Java 开发技术，MVP 架构，分离 Model 和 Controller<br>
               - Glide 实现网络图片加载、缓存<br>
@@ -142,13 +188,15 @@
           </div>
           <div class="link-to">
             <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/02_chronic_patient.png"
+              href="./static/image/project/02_chronic_patient.png"
               class="button" target="view_windows">
-              项目截图
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/02_chronic_patient.png"-->
+              项目预览
             </a>
             <div class="shadow"></div>
           </div>
         </div>
+        
         <div class="col-3-abs" id="project-3">
           <div class="project-content">
             <img class="applogo-nurse" src="static/icon/logo_nursemini.png" alt="">
@@ -164,13 +212,15 @@
           </div>
           <div class="link-to">
             <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/15_nurse_mini00.png"
+              href="./static/image/project/15_nurse_mini00.png"
               class="button" target="view_window">
-              项目截图
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/15_nurse_mini00.png"-->
+              项目预览
             </a>
             <div class="shadow"></div>
           </div>
         </div>
+        
         <div class="col-3-abs" id="project-4">
           <div class="project-content">
             <img class="applogo" src="static/icon/logo_school.png" alt="">
@@ -186,13 +236,15 @@
           </div>
           <div class="link-to">
             <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/13_guizhou_yikedaxue_2.png"
+              href="./static/image/project/13_guizhou_yikedaxue_2.png"
               class="button" target="view_windows">
-              项目截图
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/13_guizhou_yikedaxue_2.png"-->
+              项目预览
             </a>
             <div class="shadow"></div>
           </div>
         </div>
+        
         <div class="col-3-abs endline" id="project-5">
           <div class="project-content">
             <img class="applogo" src="static/icon/logo_huaan.png" alt="">
@@ -208,9 +260,10 @@
           </div>
           <div class="link-to">
             <a
-              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/12_huaan_securities_1.png"
+              href="./static/image/project/12_huaan_securities_1.png"
               class="button" target="view_windows">
-              项目截图
+              <!--              href="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/12_huaan_securities_1.png"-->
+              项目预览
             </a>
             <div class="shadow"></div>
           </div>
@@ -224,31 +277,35 @@
       <div class="w-experience-detail">
         <div class="item w-experience-content">
           <div class="logo">
+            <!--            <img class="company-logo-softech" src="static/icon/logo_comp_hjan.png" alt="">-->
+          </div>
+          <div class="work-content">
+            <p class="create-time">2021.2.3 - 至今</p>
+            <p class="job">部门负责人 | 南京宏景安网络科技有限公司</p>
+            <ul>
+              <li>负责和客户沟通产品需求,定位和分析,转化为研发需求</li>
+              <li>负责计划项目排期,分配成员任务,把握项目进度,协同开发</li>
+              <li>负责移动端和web端的项目框架搭建,核心功能代码撰写</li>
+              <li>负责 App 的打包上架,web 端的打包部署,负责项目版本迭代</li>
+              <li>负责安排组员进行代码review,把控项目质量,营造良好的学习氛围</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-experience-detail">
+        <div class="item w-experience-content">
+          <div class="logo">
             <img class="company-logo-softech" src="static/icon/logo_comp_softech.png" alt="">
           </div>
           <div class="work-content">
-            <p class="create-time">2016.7 - 至今</p>
+            <p class="create-time">2016.7 - 2020.12</p>
             <p class="job">移动前端研发 | 江苏南大苏富特医疗科技有限公司</p>
             <ul>
               <li>负责Android端的APP的项目创建、架构、代码撰写、打包、维护、版本迭代</li>
               <li>负责 ReactNative 项目的相关模块代码编写，撰写原生模块，与Android端原生交互</li>
-              <li>负责总监分配到的 Web 前端 React、Vue 项目对应模块的功能代码编写</li>
-              <li>负责微信小程序项目功能的编写和任务分配</li>
-              <li>负责部分项目进度汇报/任务分配,负责 Android、react-native 开发人员面试</li>
+              <li>负责 Web 前端 React、Vue、小程序项目对应模块的功能代码编写</li>
+              <li>负责部分项目任务分配、进度把控,负责 Android、react-native 开发人员面试</li>
               <li>对总监汇报工作进度，与产品经理沟通, 对产品功能提出建议和优化, 改善用户体验</li>
-            </ul>
-          </div>
-        </div>
-        <div class="item w-experience-content">
-          <div class="logo">
-            <img class="company-logo-tainer" src="static/icon/logo_comp_tianer.jpg" alt="">
-          </div>
-          <div class="work-content">
-            <p class="create-time">2015.11 - 2016.4</p>
-            <p class="job">Android 研发 | 杭州天尔科技有限公司</p>
-            <ul>
-              <li>负责公司内Android App的相应模块的功能编写</li>
-              <li>负责测试和解决 bug</li>
             </ul>
           </div>
         </div>
@@ -263,7 +320,8 @@
       <div class="peasonal-message">
         <div style="display: flex;flex-direction: row">
           <img class="peasonal-image"
-               src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/me.jpg" alt="">
+               src="./static/image/project/me.jpg" alt="">
+          <!--               src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/me.jpg" alt="">-->
           <div class="item">
             <p class="name">朱桂东</p>
             <p class="wechat">shiqkuangsan</p>
@@ -272,39 +330,43 @@
           </div>
           <div style="margin-left: 80px; text-align: left">
             <ul>
+              <li>两次带5人小团队经验,善于和组员沟通,发挥团队协作能力</li>
               <li>原生 <strong>Android</strong>, <strong>Java</strong> 基本功扎实</li>
-              <li>丰富的 <strong>ReactNative</strong> 经验, 熟悉原生交互</li>
+              <li>丰富的 <strong>ReactNative</strong> 经验, 熟悉与原生交互, 熟悉跨平台差异化</li>
               <li><strong>React Vue</strong> 前端项目经验</li>
-              <li>基于 <strong>Taro</strong> 的小程序端研发经验</li>
-              <li>自学 <strong>Swift</strong> 基础, 了解 <strong>Flutter</strong>, 酷爱学习</li>
+              <li>基于 <strong>Taro+React/Vue</strong> 的小程序端研发经验</li>
+              <li>了解 <strong>uni-app/ionic</strong> 多平台解决方案</li>
             </ul>
           </div>
         </div>
         <div class="item contact">
           <div class="col-3 qrcode">
             <img class="qr-image"
-                 src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/qrcode_me.png"
+                 src="./static/image/project/qrcode_me.png"
                  alt="">
+            <!--                 src="http://118.190.163.3:8076/sansan/personal-cv/snapshots_project/qrcode_me.png"-->
           </div>
           <div class="col-9">
             <span><strong>我对工作</strong></span>
             <div class="icon-container">
               <div class="wrapper">
-                <span> 新技术 <strong>(ฅ´ω`ฅ)</strong></span>
-                <span> 同事 <strong>๑乛◡乛๑</strong></span>
-                <span> RN 优先</span>
+                <span> 新技术 (ฅ´ω`ฅ)</span>
+                <span> 负责 ๑乛◡乛๑</span>
+                <strong> RN 优先</strong>
               </div>
               <div class="wrapper">
-                <span> 工作任务 <strong>(ง •̀_•́)ง</strong></span>
-                <span> 移动前端方向 </span>
-                <span> Flutter 优先</span>
+                <span> 工作激情 (ง •̀_•́)ง</span>
+                <span> 大前端方向 </span>
+                <strong> Flutter 优先</strong>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <p class="footer">shiqkuangsan@github.com</p>
+    <p class="footer">
+      <a style="font-size:14px" href="https://github.com/shiqkuangsan">shiqkuangsan@github</a>
+    </p>
   </footer>
 </div>
 </body>
