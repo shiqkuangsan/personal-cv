@@ -7,7 +7,7 @@
 
 ## 基本信息
 - 基&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本：朱桂东 / 男 / 1993
-- 工作经验：4年
+- 工作经验：5年
 - 求职意向：App 研发工程师
 - 毕业院校：铜陵学院
 - 专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：软件工程
