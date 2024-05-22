@@ -403,6 +403,10 @@ section .title.about-me::before {
 .peasonal-message .name {
 }
 
+.education{
+    font-size: 16px;
+}
+
 .peasonal-message .wechat {
 }
 
